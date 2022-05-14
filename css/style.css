@@ -1,12 +1,8 @@
 /* Главная */
-body { position: relative;width: 1600px;height: 2349px;
-background: #FFFFFF;}
+body {background: #FFFFFF;}
  /*Шапка*/
-   .page-header {position: absolute;width: 1600px;height: 80px;
-       left: 0px;top: 0px;background: #FFFFFF;}
-
-       /* WebStudio */
-.logo {position: absolute;
+    /* WebStudio */
+.logo {
     color: black;
     width: 145px;
     height: 31px;
@@ -22,16 +18,7 @@ background: #FFFFFF;}
     color: #2196F3;
 }
    /*Навигация сайта*/
-   .site-nav {list-style-type: none;padding-left: 0%;margin-left: 0%;}
-   .site-nav  {text-decoration: none;}
-   .site-nav li {display: inline;}
-.site-nav {
-    position: absolute;
-    width: 294px;
-    height: 16px;
-    left: 453px;
-    top: 32px;
-}
+   
 .site-nav .link {
        color: #212121;
    }
@@ -48,11 +35,22 @@ background: #FFFFFF;}
 .phone {
     color: #212121;
 }
-
 /* Герой*/
-
-
-    /* E-mail */
+/* Эффективные решения для вашего бизнеса */
+.hero-title {;width: 696px;
+    height: 120px;
+    left: 452px;
+    top: 280px;
+font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+color: #212121;}
+   
 
     
 
