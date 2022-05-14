@@ -37,22 +37,36 @@ body {background: #FFFFFF;}
 }
 /* Герой*/
 /* Эффективные решения для вашего бизнеса */
-.hero-title {;width: 696px;
+.hero-title {width: 696px;
     height: 120px;
     left: 452px;
     top: 280px;
 font-family: 'Roboto';
-    font-style: normal;
+font-style: normal;
     font-weight: 900;
     font-size: 44px;
     line-height: 60px;
     text-align: center;
 letter-spacing: 0.06em;
 text-transform: uppercase;
-color: #212121;}
-   
+color: #FFFFFF;}
+.button-order {color: #FFFFFF;background:#2196F3;}  
+.hero {background: #2F303A;}
+/*Особенности*/
+.section-title { color:#212121;}
+.section-title {width: 376px;
+    height: 42px;
+    left: 612px;
+    top: 969px;
 
-    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    letter-spacing: 0.03em;
+}
 
 
-   
+
+
