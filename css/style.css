@@ -1,2 +1,17 @@
-body {background-color:green;}
-.logo a {color:black;}
+body {background-color:white;}
+.logo {color:black;/* WebStudio */
+font-family: Raleway;
+font-size: 26px;
+font-weight: 700;
+line-height: 31px;
+letter-spacing: 0.03em;
+text-align: left;
+
+font-family: Oleo Script;
+font-size: 26px;
+font-weight: 400;
+line-height: 36px;
+letter-spacing: 0.03em;
+text-align: left;}
+.site-nav a{color: #000;}
+  .site-nav a : hover{color: blu;}         
