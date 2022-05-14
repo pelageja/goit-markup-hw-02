@@ -1,17 +1,60 @@
-body {background-color:white;}
-.logo {color:black;/* WebStudio */
-font-family: Raleway;
-font-size: 26px;
-font-weight: 700;
-line-height: 31px;
-letter-spacing: 0.03em;
-text-align: left;
+/* Главная */
+body { position: relative;width: 1600px;height: 2349px;
+background: #FFFFFF;}
+ /*Шапка*/
+   .page-header {position: absolute;width: 1600px;height: 80px;
+       left: 0px;top: 0px;background: #FFFFFF;}
 
-font-family: Oleo Script;
-font-size: 26px;
-font-weight: 400;
-line-height: 36px;
-letter-spacing: 0.03em;
-text-align: left;}
-.site-nav a{color: #000;}
-  .site-nav a : hover{color: blu;}         
+       /* WebStudio */
+.logo {position: absolute;
+    color: black;
+    width: 145px;
+    height: 31px;
+    left: 215px;
+    top: 24px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    color: #2196F3;
+}
+   /*Навигация сайта*/
+   .site-nav {list-style-type: none;padding-left: 0%;margin-left: 0%;}
+   .site-nav  {text-decoration: none;}
+   .site-nav li {display: inline;}
+.site-nav {
+    position: absolute;
+    width: 294px;
+    height: 16px;
+    left: 453px;
+    top: 32px;
+}
+.site-nav .link {
+       color: #212121;
+   }
+
+   .site-nav .link:hover,
+   .site-nav .link:active {
+       color: #2196F3;
+   }
+ /*Контакты*/
+.mail {
+    color: #2196F3;
+}
+
+.phone {
+    color: #212121;
+}
+
+/* Герой*/
+
+
+    /* E-mail */
+
+    
+
+
+   
