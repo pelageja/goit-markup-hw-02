@@ -1,15 +1,22 @@
+html { 
+    padding: 5px;
+}
 /* Главная */
-body {background: #FFFFFF;}
- /*Шапка*/
+body {
+width:1600px;
+height: 80px;
+padding: 40px;
+margin: 15px;
+background: #FFFFFF;
+}
+ul {
+    list-style-type: none;
+}
+
+/*Шапка*/
     /* WebStudio */
 .logo {
-    color: black;
-    width: 145px;
-    height: 31px;
-    left: 215px;
-    top: 24px;
-
-    font-family: 'Raleway';
+   font-family: Oleo Script;
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
@@ -37,36 +44,86 @@ body {background: #FFFFFF;}
 }
 /* Герой*/
 /* Эффективные решения для вашего бизнеса */
-.hero-title {width: 696px;
+.hero {
+    height: 600px;
+        width: 1600px;
+        left: 0px;
+        top: 80px;
+        border-radius: 0px;
+    background: #2F303A;
+}
+.hero-title {/* Эффективные решения для вашего бизнеса */
+
+    position: absolute;
+    width: 696px;
     height: 120px;
     left: 452px;
     top: 280px;
-font-family: 'Roboto';
-font-style: normal;
-    font-weight: 900;
-    font-size: 44px;
-    line-height: 60px;
-    text-align: center;
-letter-spacing: 0.06em;
-text-transform: uppercase;
-color: #FFFFFF;}
-.button-order {color: #FFFFFF;background:#2196F3;}  
-.hero {background: #2F303A;}
-/*Особенности*/
-.section-title { color:#212121;}
-.section-title {width: 376px;
-    height: 42px;
-    left: 612px;
-    top: 969px;
 
     font-family: 'Roboto';
     font-style: normal;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 42px;
-    letter-spacing: 0.03em;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    /* or 136% */
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+    
+}
+/*кнопка записаться*/
+.button-order {
+position: absolute;
+    width: 200px;
+    height: 50px;
+    left: 700px;
+    top: 430px;
+background: #2196F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    }  
+.button-order {
+    color: #FFFFFF;
+        font-weight: normal;
+        font-family: Roboto;
+        font-size: 16px;
+        line-height: 30px;
+    }
+/*Особенности*/
+/*.section-title { color:#212121;}*/
+.h3 {/* Внимание к деталям */
+color: #212121;
+    font-weight: bold;
+    font-family: Roboto;
+    font-size: 14px;
+    }
+.text {
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+/* or 171% */
+letter-spacing: 0.03em;
+color: #757575;
 }
 
+/* Чем мы занимаемся */
+.section-title {
+position: absolute;
+width: 376px;
+height: 42px;
+left: 612px;
+top: 969px;
 
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 42px;
+text-align: center;
+letter-spacing: 0.03em;
 
-
+color: #212121;}
