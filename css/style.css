@@ -16,7 +16,7 @@ ul {
 /*Шапка*/
     /* WebStudio */
 .logo {
-   font-family: Oleo Script;
+   font-family: Releway;
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
@@ -24,7 +24,15 @@ ul {
     letter-spacing: 0.03em;
     color: #2196F3;
 }
-   /*Навигация сайта*/
+   span {
+       color:#212121;
+font-family: Oleo Script;
+}
+   .logo { 
+       border:2px solid#2196F3;
+       text-decoration: none;
+    }
+/*Навигация сайта*/
    
 .site-nav .link {
        color: #212121;
@@ -69,11 +77,9 @@ ul {
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-
-    color: #FFFFFF;
-    
-}
-/*кнопка записаться*/
+ color: #FFFFFF;
+    }
+/*заказать услугу*/
 .button-order {
 position: absolute;
     width: 200px;
@@ -91,8 +97,19 @@ background: #2196F3;
         font-size: 16px;
         line-height: 30px;
     }
-/*Особенности*/
-/*.section-title { color:#212121;}*/
+.button-order:hover,
+.button-order:focus {
+    background-color: #2196F6;
+}
+
+    /*Особенности*/
+.ul>li {
+    display: inline-block;
+    left: 215px;
+    top: 774px;
+    }
+
+
 .h3 {/* Внимание к деталям */
 color: #212121;
     font-weight: bold;
@@ -100,7 +117,7 @@ color: #212121;
     font-size: 14px;
     }
 .text {
-font-family: 'Roboto';
+font-family: 'Roboto',sans-serif;
 font-style: normal;
 font-weight: 400;
 font-size: 14px;
