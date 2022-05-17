@@ -87,7 +87,7 @@ font-weight: 900;
     }
 .button-order:hover,
 .button-order:active {
-    color: #0762ac;
+    background-color: #0762ac;
 }
 
     /*Особенности*/
