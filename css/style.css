@@ -56,7 +56,7 @@ font-size: 14px; ;
 /* Герой*/
 /* Эффективные решения для вашего бизнеса */
 .hero-title {
-font-family: inherit;
+font-family: Roboto;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.4;
@@ -74,44 +74,69 @@ font-family: inherit;
     cursor: pointer
     }
 /*Особенности*/
-.ul>li {
-    display: inline-block;
-    left: 215px;
-    top: 774px;
-    }
-
-
-.h3 {/* Внимание к деталям */
+.requirements.h3 {
 color: #212121;
     font-weight: bold;
     font-family: Roboto;
-    font-size: 14px;
+   font-weight: 400;
+        font-size: 14px;
+        line-height: 1.1;
     }
 .text {
-font-family: 'Roboto',sans-serif;
-font-style: normal;
+font-family: 'Roboto';
 font-weight: 400;
 font-size: 14px;
-line-height: 24px;
-/* or 171% */
-letter-spacing: 0.03em;
+line-height: 1.7;
 color: #757575;
 }
 
 /* Чем мы занимаемся */
-.section-title {
-position: absolute;
-width: 376px;
-height: 42px;
-left: 612px;
-top: 969px;
-
-font-family: 'Roboto';
-font-style: normal;
+.employment .h2 {
+    font-family: 'Roboto';
 font-weight: 700;
 font-size: 36px;
-line-height: 42px;
-text-align: center;
-letter-spacing: 0.03em;
-
-color: #212121;}
+line-height: 1.2;
+color: #212121;
+}
+.details.h3 {
+font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 16;
+    line-height: 1.2;
+    color: #212121;
+}
+.position {
+font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 16;
+    line-height: 1.2;
+    color: #757575;
+}
+footer {
+    height: 252px;
+        width: 1600px;
+        left: 0px;
+        top: 2097px;
+        border-radius: 0px;
+        background-color: #2F303A; ;
+}
+footer>a>span {
+    color: #FFFFFF;
+    font-family: Releway;
+}
+.street {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+        font-size: 14;
+        line-height: 1.2;
+        color: #FFFFFF;
+}
+.contacts .link {
+font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14;
+    line-height: 1.7;
+    color: #FFFFFF99;
+}
