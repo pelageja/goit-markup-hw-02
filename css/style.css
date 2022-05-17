@@ -78,13 +78,11 @@ font-family: Roboto;
 color: #212121;
     font-weight: bold;
     font-family: Roboto;
-   font-weight: 400;
-        font-size: 14px;
+ font-size: 14px;
         line-height: 1.1;
     }
 .text {
 font-family: 'Roboto';
-font-weight: 400;
 font-size: 14px;
 line-height: 1.7;
 color: #757575;
@@ -107,7 +105,6 @@ font-family: 'Roboto';
 }
 .position {
 font-family: 'Roboto';
-    font-weight: 400;
     font-size: 16;
     line-height: 1.2;
     color: #757575;
@@ -135,8 +132,29 @@ footer>a>span {
 .contacts .link {
 font-family: 'Roboto';
     font-style: normal;
-    font-weight: 400;
     font-size: 14;
     line-height: 1.7;
     color: #FFFFFF99;
+}
+/* страница Портфолио*/
+/* Style the buttons */
+.btn-active {
+    border: none;
+    outline: none;
+    width: 73px;
+        height: 38px;
+    background-color: #2196F6;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+/* Add a grey background color on mouse-over */
+.btn:hover {
+    background-color: #ddd;
+}
+
+/* Add a dark background color to the active button */
+.btn.active {
+    background-color: #666;
+    color: white;
 }
