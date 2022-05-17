@@ -40,19 +40,21 @@ font-size: 14px; ;
        color: #2196F3;
    }
  /*Контакты*/
-.mail {
+ .contact .link:hover,
+.contact .link:active {
     color: #2196F3;
+}
+ 
+ 
+ .contact .link {
+    color: #212121;
     font-size: 14px;
         line-height: 1.2;
         font-weight: 500px;
 }
 
-.phone {
-    color: #212121;
-    font-size: 14px;
-         line-height: 1.2;
-        font-weight: 500px;
-}
+
+
 /* Герой*/
 /* Эффективные решения для вашего бизнеса */
 .hero-title {
@@ -146,15 +148,34 @@ font-family: 'Roboto';
     background-color: #2196F6;
     color: #FFFFFF;
     cursor: pointer;
+    font-size: 16px;
+        line-height: 1.6;
+        font-weight: 500px;
+        font-family: Roboto;
 }
-
-/* Add a grey background color on mouse-over */
-.btn:hover {
-    background-color: #ddd;
+.btn {
+    width: 128px;
+    height: 38px;
+    color: #212121;
+    background-color: #F5F4FA;
+    font-size: 16px;
+    line-height:1.6;
+    font-weight: 500px;
+    font-family: Roboto;
+    cursor: pointer;
 }
+.gallery h2 {
+    font-size: 18px;
+        line-height: 2;
+        font-weight: 700px;
+        font-family: Roboto;
+        color: #212121;
+}
+.gallery p {
+font-size: 16px;
+    line-height: 1.9;
+    font-weight: 400px;
+    font-family: Roboto;
+    color: #757575;
 
-/* Add a dark background color to the active button */
-.btn.active {
-    background-color: #666;
-    color: white;
 }
