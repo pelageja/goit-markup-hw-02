@@ -100,6 +100,7 @@ color: #212121;
     font-weight: bold;
     font-size: 14px;
         line-height: 1.1;
+        text-transform: uppercase;
     }
 .requirements p {
 font-size: 14px;
@@ -121,22 +122,18 @@ color: #212121;
 }
 .details h3 {
 font-weight: 500;
-    font-size: 16;
+    font-size: 16px;
     line-height: 1.2;
     color: #212121;
 }
 p .position  {
-font-size: 16;
+font-size: 16px;
     line-height: 1.2;
     color: #757575;
 }
 /*Подвал*/
 footer {
-    height: 252px;
-        width: 1600px;
-        left: 0px;
-        top: 2097px;
-        border-radius: 0px;
+   
         background-color: #2F303A; ;
 }
 footer>a>span {
