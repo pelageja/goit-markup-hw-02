@@ -126,7 +126,7 @@ font-weight: 500;
     line-height: 1.2;
     color: #212121;
 }
-p .position  {
+ .position {
 font-size: 16px;
     line-height: 1.2;
     color: #757575;
@@ -157,13 +157,9 @@ font-style: normal;
 .contacts a {
     text-decoration: none;
 }
-/* страница Портфолио*/
+/* страница Портфолио */
 /* Style the buttons */
 .key-active {
-    border: none;
-    outline: none;
-    width: 73px;
-        height: 38px;
     background-color: #2196F6;
     color: #FFFFFF;
     cursor: pointer;
@@ -192,6 +188,8 @@ font-style: normal;
         font-weight: 700;
        color: #212121;
 }
+
+/*--Галерея фото--*/
 .gallery p {
 font-size: 16px;
     line-height: 1.9;
